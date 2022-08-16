@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Search & Filters</title>
+    <link rel="stylesheet" href="./Search.css">
+
+  </head>
+  <body>
+            <div class="navbar">
+
+            <div class="logo"><p class="text">e!</p></div>
+                <!-- <button >Login</button> -->
+                <a class="login marg" href="#">Login</a>
+                <button class="create_account marg" type="button" onclick="window.location.href='#';">Create an account</button>   
+            </div>
+
+
+            <div class="content">
+                <div class="heading">
+                    Breakfast Places in Mumbai
+                </div>
+                <div class="filter-part">
+                   <div class="filter-content">
+                        <p id="Filters">Filters</p>
+                        <p class="location">Select Location</p>
+                        <select name="locations" id="locations">
+                            <option value="0">Select Location</option>
+                            <option value="1">location1</option>
+                            <option value="2">location2</option>
+                            <option value="3">location3</option>
+                            <option value="4">location4</option>
+                        </select>
+                        <h4 id="cusines">Cusines</h4>
+                        <input type="checkbox" id="NorthIndian" class="checkboxes" name="">
+                        <label for="NorthIndian">North Indian</label><br>
+                        <input type="checkbox" id="NorthIndian" class="checkboxes" name="">
+                        <label for="NorthIndian">South Indian</label><br>
+                        <input type="checkbox" id="NorthIndian" class="checkboxes" name="">
+                        <label for="NorthIndian">Chinese</label><br>
+                        <input type="checkbox" id="NorthIndian" class="checkboxes" name="">
+                        <label for="NorthIndian">Fast Food</label><br>
+                        <input type="checkbox" id="NorthIndian" class="checkboxes" name="">
+                        <label for="NorthIndian">Street Food</label><br>
+
+
+                        <h4 class="cost">Cost For Two</h4>
+                        <input type="radio" class="rdo" id="Lessthan500" name="cost">
+                        <label for="Lessthan500">Less than 500</label><br/>
+                    
+                        <input type="radio" class="rdo" id="500to1000" name="cost">
+                        <label for="500to1000">500 to 1000</label><br/>
+                    
+                        <input type="radio" class="rdo" id="1000to1500" name="cost">
+                        <label for="1000to1500">1000 to 1500</label><br/>
+                    
+                        <input type="radio" class="rdo" id="1500to2000" name="cost">
+                        <label for="500to2000">1500 to 2000</label><br/>
+                    
+                        <input type="radio" class="rdo" id="2000+" name="cost">
+                        <label for="2000+">2000+</label><br/>
+                        
+                        <h3 class="sort">Sort</h3>
+                        <input type="radio" class="rdo1" id="LowtoHigh" name="sort">
+                        <label for="LowtoHigh">Price low to high</label><br/>
+                    
+                        <input type="radio" class="rdo1" id="HightoLow" name="sort">
+                        <label for="HightoLow+">Price high to low</label><br/>
+                
+                     </div>
+                </div>
+                <div class="main-part">
+                    <div class="main-item">
+                    
+                                <div class="upper">
+                                    <span class="left-content">
+                                        <img src="./images/Bigchiily.png" alt="Big chiily Cakery">
+                                    </span>
+                                    <span class="right-content">
+                                        <div class="right-content-heading">The Big Chill Cakery</div>
+                                        <p class="sub">FORT</p>
+                                        <p class="sub-subaddress">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                                    </span>
+                                </div>
+                                <div class="lower">
+                                    <span class="lower-left-content">
+                                        <p>CUISINES:</p><br/>
+                                        <p>COST FOR TWO:</p>
+                                    </span>
+                                    <span class="lower-right-content">
+                                        <p>Bakery</p><br/>
+                                        <p>₹700</p>
+                                    </span>
+                                </div>
+                            
+                    </div>
+                    <div class="main-item ">
+                        
+                        <div class="upper">
+                            <span class="left-content">
+                                <img src="./images/Bigchiily.png" alt="Big chiily Cakery">
+                            </span>
+                            <span class="right-content">
+                                <div class="right-content-heading">The Bake Shop</div>
+                                <p class="sub">FORT</p>
+                                <p class="sub-subaddress">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                            </span>
+                        </div>
+                        <div class="lower">
+                            <span class="lower-left-content">
+                                <p>CUISINES:</p><br/>
+                                <p>COST FOR TWO:</p>
+                            </span>
+                            <span class="lower-right-content">
+                                <p>Bakery</p><br/>
+                                <p>₹700</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="pages">
+                        <span class="bottom-part"><</span>
+                        <span class="bottom-part">1</span>
+                        <span class="bottom-part">2</span>
+                        <span class="bottom-part">3</span>
+                        <span class="bottom-part">4</span>
+                        <span class="bottom-part">5</span>
+                        <span class="bottom-part">></span>
+                    </div>
+                </div>
+            </div>
+  </body>
+</html>
